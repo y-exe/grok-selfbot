@@ -1,4 +1,4 @@
-# Grog風セルボ (Geminiapi)
+# Grok風セルボ
 
 **開発言語:** Node.js (JavaScript)
 
