@@ -88,3 +88,10 @@ Windowsの初期設定ではスクリプト実行が制限されているため�
 
 ```powershell
 node index.js
+```
+
+## 起動ショートカット作成
+
+```cmd
+cmd.exe /k "cd /d C:\Grok_JS && node index.js"
+```
