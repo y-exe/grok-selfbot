@@ -72,21 +72,8 @@ Windowsの初期設定ではスクリプト実行が制限されているため�
 2.  以下の内容を記述し、ご自身のトークンとAPIキーに置き換えてください。
 
     ```ini
-    # .envファイル
-
-    # Discordアカウントのトークン
     DISCORD_TOKEN="ここにあなたのDiscordアカウントトークンを貼り付け"
-
-    # Gemini APIキー
     GEMINI_API_KEY="ここにあなたのGemini APIキーを貼り付け"
-    ```
-    **注意:** トークンとAPIキーは、絶対に公開リポジトリにコミットしないでください。`.gitignore`ファイルを作成して、`.env`を無視するように設定することを強く推奨します。
-
-    **`.gitignore` ファイルの例:**
-    ```
-    # .gitignore
-    node_modules
-    .env
     ```
 
 ### 4. プログラムの配置
